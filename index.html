@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Frontend Gateway</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Frontend Gateway</h1>
+  <button onclick="window.open('https://tu-proyecto-heroku.herokuapp.com', '_blank')">Heroku Backend</button>
+  <button onclick="window.open('http://tu-ip-digitalocean:5000', '_blank')">DigitalOcean Backend</button>
+  <button onclick="window.open('https://tu-proyecto-railway.up.railway.app', '_blank')">Railway Backend</button>
+  <button onclick="window.open('https://tu-proyecto-vercel.vercel.app', '_blank')">Vercel Frontend</button>
+</body>
+</html>
